@@ -10,8 +10,8 @@ def calcular(x, y):
     return y
 
 class Test_testando:
+    
     def  test_calcular(self):
         assert calcular(3, 2) == 83
-    
     def test_calculo(self):
         assert calcular(3, 2) == 84
