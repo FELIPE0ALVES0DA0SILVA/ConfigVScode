@@ -1,3 +1,5 @@
+import pytest
+
 def calcular(x, y):
     """
     Essa calculadora, calcula alguma coisa.
@@ -7,9 +9,9 @@ def calcular(x, y):
     y = x ** 2 + y
     return y
 
-class test_testando:
-    def  test_calcular():
+class Test_testando:
+    def  test_calcular(self):
         assert calcular(3, 2) == 83
     
-    def test_calculo():
+    def test_calculo(self):
         assert calcular(3, 2) == 84
