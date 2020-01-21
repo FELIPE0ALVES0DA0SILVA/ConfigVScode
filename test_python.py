@@ -8,8 +8,7 @@ def calcular(x, y):
     return y
 import pytest
 
-class test_testando():
-
+class test_testando:
     def  test_calcular():
         assert calcular(3, 2) == 83
     
